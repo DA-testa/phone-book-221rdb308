@@ -11,7 +11,7 @@ for i in range(n):
     if command == "add":
         name = query[2]
         phone_book[number] = name
-    elif command == "del"
+    elif command == "del":
         if number in phone_book:
             del phone_book[number]
     elif command == "find":
