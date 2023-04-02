@@ -8,7 +8,7 @@ for i in range(n):
     command = query[0]
     number = query[1]
     
-    if command == "add"
+    if command == "add":
         name = query[2]
         phone_book[number] = name
     elif command == "del"
